@@ -1,0 +1,116 @@
+body{
+	margin: 0px;
+	padding:0px;
+	background-color: #008cd2;
+}
+
+.Boxlogin 
+{
+	position: absolute;
+	top:  50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	min-height: 200px;
+	background: #fff;
+	border-radius: 10px;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+img
+{
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+}
+
+.user 
+{
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 20px;
+	border:1px white solid;
+}
+
+h3
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #262626;
+	text-align: center;
+}
+
+.Boxlogin input 
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.Boxlogin input[type="text"],
+.Boxlogin input[type="password"]
+{
+	border:none;
+	border-bottom: 2px solid #262626;
+	outline:none;
+	height: 40px;`
+	color: #262626;
+	background: transparent;
+	font-size: 16px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.Boxlogin input[type="text"]:focus,
+.Boxlogin input[type="password"]:focus
+{
+	border-bottom: 2px solid #f00;
+}
+
+.inputBox
+{
+	position: relative;
+}
+
+.inputBox span
+{
+	position: absolute;
+	top: 10px;
+	color: #262626;
+}
+
+.Boxlogin input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+	background: #ed292a;
+	color: #fff;
+	border-radius: 20px; 
+	cursor: pointer;
+}
+
+.Boxlogin a 
+{
+	color: #262626;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+.alert
+{
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
+
+h2
+{
+	color: white;
+	text-align: center;
+}
